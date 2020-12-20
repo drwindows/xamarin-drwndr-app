@@ -1,0 +1,548 @@
+[
+  {
+    "id": "https://www.drwindows.de/news/?p=77511",
+    "title": "Weiterentwicklung von Windows 10: Größter Umbruch seit 2015 steht an",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Windows.jpg",
+    "summary": "Microsoft stellt die Art und Weise, wie neue Funktionen für Windows 10 bereitgestellt werden, auf eine völlig neue Basis. Es ist die größte Änderung an &#8222;Windows as a Service&#8220; seit der Einführung von Windows 10 im Jahr 2015. Dieser Umbruch wird dennoch &#8222;leise&#8220; angekündigt, in Form eines Blogposts, der sich an die Windows Insider im [&#8230;]",
+    "pub_date": "2020-12-01T06:13:05+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77505",
+    "title": "Tipp: Themes of .NET zeigt die Pläne für .NET 6 und darüber hinaus",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/10/DotNet-Foundation.png",
+    "summary": "Kurz notiert: Mit .NET 5 wurde die aktuelle Version von Microsofts Entwicklungsplattform gerade erst am 10. November für alle Entwickler freigegeben, da starten auch schon die Arbeiten am Nachfolger .NET 6, welcher im November 2021 erscheinen soll und die nächste Version mit LTS-Unterstützung wird. Über die Neuerungen waren ansonsten bisher nur wenige Sachen bekannt, wovon [&#8230;]",
+    "pub_date": "2020-11-30T16:42:59+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77502",
+    "title": "Microsoft Teams erhält neuen Status: Out of Office",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Microsoft-Teams-Neu.jpg",
+    "summary": "Microsoft Teams wird um einen weiteren Anwesenheitsstatus ergänzt &#8211; oder besser gesagt, Abwesenheitsstatus. Wer beispielsweise wegen Urlaubs längere Zeit nicht erreichbar sein wird, kann seinen Status voraussichtlich ab Dezember in &#8222;Out of Office&#8220; ändern. Es ist die zweite neue Statusmeldung, die binnen kurzer Zeit eingeführt wird. Seit einigen Wochen kann man seinen Status in Teams [&#8230;]",
+    "pub_date": "2020-11-30T15:57:17+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77495",
+    "title": "Excel: Kommentarfunktion wird zur Aufgabenverwaltung",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Microsoft-Excel-Neu.jpg",
+    "summary": "Microsoft Excel erhält eine neue Funktion, welche die Zusammenarbeit an Tabellen deutlich vereinfachen kann: Über die Kommentarfunktion kann man Kollegen eine Aufgabe zuweisen, die auch entsprechend nachverfolgt wird. Die Funktion ist in vollem Umfang bisher nur im Web verfügbar, am Desktop und in den mobilen Apps wird sie nur teilweise unterstützt, außerdem ist die Nutzung [&#8230;]",
+    "pub_date": "2020-11-30T15:33:45+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77416",
+    "title": "Gadgetcheck: tado Funk-Temperatursensor - Noch ein bisschen mehr Heizkomfort?",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/11/tadoSensorBeitragsbild.jpg",
+    "summary": "Im April, praktisch zum Ende der letzten Heizperiode, habe ich euch die smarten Thermostate der Firma tado vorgestellt. Pünktlich zum Start der neuen Heizperiode hat tado nun ein Erweiterungsprodukt auf den Markt gebracht, welches den griffigen Namen Funk-Temperatursensor trägt. Wie schon bereits im vorangegangenen Test beschrieben, bin ich sowohl mit der App als auch mit [&#8230;]",
+    "pub_date": "2020-11-30T08:13:14+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77222",
+    "title": "Aus dem Forum: Dateien verschwinden beim Umzug von Windows XP auf Windows 10",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/02/Windows-FAQ.jpg",
+    "summary": "In der heutigen Ausgabe der Serie &#8222;aus dem Forum&#8220; haben wir es mit einem eher kuriosen und nicht ganz alltäglichen Thema zu tun. In dem heute vorgestellten Thread aus dem Forum kam es bei einer Datenmigration eines Laptops mit Windows XP (ja, das gibt es immer noch) auf Windows 10 zu einem Datenverlust beim Kopieren [&#8230;]",
+    "pub_date": "2020-11-30T06:51:19+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77401",
+    "title": "Die Woche im Rückspiegel 48/20: Android-Apps sind mir Latte - ich schau aufs Surface Laptop Go",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/11/wochenrueckblick_48_titelbild.jpg",
+    "summary": "Hinter uns liegt das, was man in unserer Branche eine Slow News Week nennt. Die Amerikaner haben Thanksgiving gefeiert, dementsprechend gab es von den US-Unternehmen in der letzten Woche nur wenig Neuigkeiten. Das gibt mir Gelegenheit, ein wenig ausführlicher über das Surface Laptop Go zu plaudern, das in dieser Woche hier eingetroffen ist. Und weil [&#8230;]",
+    "pub_date": "2020-11-29T13:08:55+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77259",
+    "title": "Android Rundschau KW 48/20 mit Outlook, Microsoft Launcher und Xbox",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/07/Andorid-Rundschau-NEU.png",
+    "summary": "Die Thanksgiving-Woche in den USA ist erfahrungsgemäß eine ruhige News-Woche, so gesehen ist es fast schon eine kleine Überraschung, dass es drei berichtenswerte Feature-Updates bei den Microsoft-Apps für Android gibt. Das sind sie: Microsoft Outlook Wenn man einen neuen Termin erstellt, wird automatisch ein Link zu einer Onlinebesprechung hinzugefügt. Bei Outlook.com Konten ist es Skype, [&#8230;]",
+    "pub_date": "2020-11-29T11:31:45+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77404",
+    "title": "Microsoft Store Rundschau KW 48/20 mit Smart-Home-Controller, Microsoft Flight Simulator und mehr",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/09/apprundschau.jpg",
+    "summary": "In dieser Woche war es ein wenig ruhiger im Microsoft Store, einige nennenswerte Updates gab es dann aber doch. So hat in dieser Woche der Microsoft Flight Simulator sein großes USA-Weltupdate erhalten, außerdem hat uns unser Leser Oliver die App &#8222;Smart Home-Controller&#8220; vorgeschlagen, die wir an dieser Stelle natürlich gerne erwähnen und vorstellen. Vielen Dank [&#8230;]",
+    "pub_date": "2020-11-29T09:00:54+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77410",
+    "title": "iOS Rundschau KW 48/20 mit Xbox",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/12/iOS-Rundschau-Weihnachten.jpg",
+    "summary": "In der letzten Woche wurde Thanksgiving gefeiert. Dieser Tag ist bei unseren Freunden in den Vereinigten Staaten das wichtigste Familienfest. Entsprechend ruhig war es dann auch bei den Updates. Somit läuten wir die Adventszeit mit lediglich einem Feature Update von der Xbox App ein, dazu gesellen sich noch zwei Wartungsupdates und lediglich drei Beta-Updates. &#160; Xbox &#8211; [&#8230;]",
+    "pub_date": "2020-11-29T07:36:04+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77579",
+    "title": "Offiziell: Salesforce übernimmt Slack für 27,7 Milliarden USD",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/04/slack_logo.jpg",
+    "summary": "Microsoft bekommt einen neuen und stärkeren Konkurrenten: Nachdem entsprechende Gerüchte bereits vor einer guten Woche aufkamen, machte Salesforce die Übernahme von Slack am heutigen Abend nun auch offiziell. Mit 27,7 Milliarden USD handelt es sich dabei um die teuerste Übernahme der Firmengeschichte, die in der Summe auch noch Microsofts Übernahme von LinkedIn leicht übertrifft. Salesforce [&#8230;]",
+    "pub_date": "2020-12-01T22:17:39+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77575",
+    "title": "Edge Dev: Microsoft veröffentlicht mit Version 88.0.705.9 das finale Update vor der Beta",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/11/microsoft_edge_dev.jpg",
+    "summary": "Nach einer Woche Pause meldet sich das Entwicklerteam von Microsoft Edge mit einer neuen Version im Dev Channel zurück. Mit dem Update auf Version 88.0.705.9 wird gleichzeitig die letzte Version von Edge 88.x verteilt, bevor diese in die Beta-Phase eintritt und dann im Januar an alle regulären Nutzer ausgeliefert wird. Trotzdem haben die Entwickler nochmal [&#8230;]",
+    "pub_date": "2020-12-01T20:10:33+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77571",
+    "title": "PowerToys: Microsoft veröffentlicht Version 0.27 mit Designverbesserungen und mehr",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/05/powertoys.jpg",
+    "summary": "Microsoft hat vor wenigen Stunden mit Version 0.27 das nächste Funktionsupdate für die neuen PowerToys für Windows 10 veröffentlicht. Das neue Werkzeug für Videokonferenzen ist wieder nicht dabei, dafür haben die Entwickler aber bei der Oberfläche diverser anderer Werkzeuge Hand angelegt. Der Image Resizer und der Color Picker bekamen verschiedene Updates bei der Benutzeroberfläche, letzterer [&#8230;]",
+    "pub_date": "2020-12-01T19:58:46+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77563",
+    "title": "Für die Konsolen: Microsoft gibt das Xbox Insider Bundle im Microsoft Store frei",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/03/xbox_insider.jpg",
+    "summary": "Kurzer Einwurf für alle Xbox Insider unter uns, die gerne ihr entsprechendes Feedback abgeben wollen: Wie die Kollegen von Aggiornamenti Lumia auf Twitter schreiben, hat Microsoft mit dem Xbox Insider Bundle ein neues Paket aus zwei Apps zum Download bereitgestellt, das neben der Xbox Series X/S auch für die Xbox One zur Verfügung steht. Teil [&#8230;]",
+    "pub_date": "2020-12-01T15:55:56+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77525",
+    "title": "Browser und Betriebssysteme im November 2020: Neustart für unsere Monatsstatistik",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/07/Statistik-Neu.png",
+    "summary": "Es gehört gewissermaßen zur Tradition, dass wir zu Beginn eines jeden Monats auf die Entwicklung der Nutzungsanteile von Browsern und Betriebssystemen schauen. Bislang haben wir dafür immer auf die Erhebungen von Netmarketshare gesetzt, die allerdings im letzten Monat angekündigt haben, ihre Statistiken nicht mehr in der bisherigen Form zur Verfügung zu stellen. Der zweite große [&#8230;]",
+    "pub_date": "2020-12-01T10:54:19+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77515",
+    "title": "Xbox November Update konzentriert sich auf die neue Generation: Mehr Hintergründe, bessere Kennzeichnungen",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/09/xbox_series_x_und_s.jpg",
+    "summary": "Das Xbox Dashboard-Update für den Monat November wurde am Montagabend veröffentlicht. Es ist keine allzu große Überraschung, dass sich die Neuerungen in diesem Update auf die neuen Konsolen Xbox Series X und S konzentrieren, aber auch für die Game Pass Abonnenten gibt es Neues zu entdecken. Neue Hintergründe Die neuen Konsolen unterstützen dynamische, animierte Hintergründe, [&#8230;]",
+    "pub_date": "2020-12-01T07:38:29+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77075",
+    "title": "myTube 4.0: Neue Version kommt im Dezember und ändert die Monetarisierung - Update 1",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2018/09/mytube.jpg",
+    "summary": "Es gibt nicht mehr viele Entwickler, die seit der langsamen Abkündigung von Windows 10 Mobile noch an echten Universal Apps für Windows 10 arbeiten, aber einer davon sind die Ryken Studios mit der populären App myTube. Die inoffizielle YouTube-App wartet schon seit mittlerweile fast anderthalb Jahren auf das finale Release der neuen Version 4.0 und [&#8230;]",
+    "pub_date": "2020-12-11T21:55:11+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78080",
+    "title": "Firmware: Microsoft verteilt erste Updates für das Surface Laptop Go",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/10/microsoft_surface_laptop_go.jpg",
+    "summary": "Kurz vor dem Wochenende hat Microsoft das erste Paket an Firmware-Updates für das noch junge Surface Laptop Go veröffentlicht. Insgesamt vier Aktualisierungen liefern die Redmonder aus, wovon mit dem ELAN Finger Print Driver ein Treiber eines Drittherstellers die Performance des Fingerprint Readers für Windows Hello verbessert. Daneben führt Microsoft noch drei eigene Updates an, die [&#8230;]",
+    "pub_date": "2020-12-11T18:47:55+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78076",
+    "title": "Xbox Game Pass: Die Flut an neuen Spielen reißt nicht ab",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/game_pass_dezember_20_2.jpg",
+    "summary": "Im Jahresendspurt gibt Microsoft beim Xbox Game Pass nochmal so richtig Vollgas. Keine zehn Tage, nachdem rekordverdächtige 17 Neuzugänge im letzten Monat des Jahres 2020 angekündigt wurden, folgt schon der nächste Schwung: Weitere elf Titel kommen bis zum 17. Dezember hinzu, und das war womöglich noch immer nicht der letzte Paukenschlag im auslaufenden Jahr. Hier [&#8230;]",
+    "pub_date": "2020-12-11T17:57:26+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77492",
+    "title": "Monat November: Microsoft gibt Visual Studio Code 1.52 für alle frei",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/08/Visual-Studio-Code-Neu.png",
+    "summary": "Microsoft hat kurz vor dem Wochenende mit Visual Studio Code 1.52 das letzte große Update des Jahres für den eigenen Code-Editor veröffentlicht. Obwohl die Entwickler noch viel mit dem Housekeeping aus dem vergangenen Monat zu tun hatten, fallen die Verbesserungen diesmal sehr umfangreich aus und ziehen sich quer durch die gesamte Anwendung. Auch TypeScript wurde [&#8230;]",
+    "pub_date": "2020-12-11T13:37:38+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78063",
+    "title": "Game Awards 2020: Die wichtigsten Neuigkeiten rund um Microsoft",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Xbox.jpg",
+    "summary": "In Zeiten der Corona-Pandemie müssen alle Veranstalter, wenn sie in diesem Jahr eine gewisse Präsenz zeigen wollen, auf digitale Events umstellen, und so waren auch die diesjährigen Game Awards, die wieder einmal von Geoff Keighley moderiert und in der vergangenen Nacht ausgestrahlt wurden, keine Ausnahme. Während Sony Interactive als der große Gewinner vom Platz ging [&#8230;]",
+    "pub_date": "2020-12-11T12:29:43+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78043",
+    "title": "Microsoft Flight Simulator: Abflug auf Xbox Series X und S im Sommer 2021 - erster Trailer veröffentlicht",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/07/ms_flight_simulator_2020-1.jpg",
+    "summary": "Es gibt eine gute, eine weniger gute und wenn man so will, auch eine schlechte Nachricht für die Spieler, die ungeduldig auf das Erscheinen des Microsoft Flight Simulator für die Xbox warten. Die gute Nachricht ist, dass der Flugplan steht. Die weniger gute Nachricht ist, dass wir noch ein bisschen mehr Geduld brauchen: Im Sommer [&#8230;]",
+    "pub_date": "2020-12-11T06:59:21+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78039",
+    "title": "Windows on ARM: x64 Emulation startet mit Insider Build 21277 in den Testbetrieb",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/07/windows_insider_trex_neu-660x330.jpg",
+    "summary": "Windows on ARM bietet bekanntermaßen eine Emulationsschicht, die klassische Windows-Programme ausführen kann. Bislang funktionierte das allerdings nur mit 32 Bit Programmen. An der Emulation von 64 Bit Programmen wurde seit geraumer Zeit gearbeitet, heute startet sie mit der Windows 10 Insider Build 21277 offiziell in die Erprobung. Ursprünglich hätte der Testbetrieb der erweiterten Emulation schon [&#8230;]",
+    "pub_date": "2020-12-10T22:39:38+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78034",
+    "title": "Xbox Family Settings: Microsoft rüstet App mit zwei wichtigen Features nach",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/09/xbox_family_settings_logo.jpg",
+    "summary": "Der Herbst war für das Team Xbox bei Microsoft eine wichtige Jahreszeit. Die neuen Konsolen wurden veröffentlicht, das Xbox Cloud Streaming ist über den Xbox Game Pass Ultimate in den Regelbetrieb gestartet und mit ZeniMax Media und seiner Tochter Bethesda wurde die wahrscheinlich größte Übernahme der Gaming-Branche in diesem Jahr verkündet. Aber auch im kleinen [&#8230;]",
+    "pub_date": "2020-12-10T19:27:47+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77968",
+    "title": "Cyberpunk 2077 ab heute verfügbar",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/Cyber.jpg",
+    "summary": "Was lange währt, wird gut. Nachdem es 2013 einen kurzen, aber beeindruckenden CGI-Teaser von CD Projekt Red gab, hat sich der Hype um das Spiel kontinuierlich gesteigert. Dieser gipfelte in der E3 Ankündigung, als Keanu Reeves auf die Xbox Bühne kam und seine Beteiligung bekanntgab: Breathtaking&#8230; #XboxE3 #Cyberpunk2077 pic.twitter.com/xkIc11iZmf &#8212; Xbox (@Xbox) June 9, 2019 [&#8230;]",
+    "pub_date": "2020-12-10T15:32:27+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77964",
+    "title": "Browsererweiterungen: Google plant mehr Datenschutz und Transparenz",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2011/07/google-chrome_pgb.jpg",
+    "summary": "Mit einer Sicherheitsoffensive will Google im kommenden Jahr für mehr Datenschutz und Transparenz beim Umgang mit mit Browsererweiterungen sorgen. In einem Blogpost werden die geplanten Maßnahmen erklärt, die sich eventuell auch auf Microsoft Edge auswirken könnten, der bekanntlich auf Chromium basiert. Die gravierendste Neuerung ist jene, dass eine Erweiterung nicht mehr standardmäßig Zugriff auf alle Webseiten [&#8230;]",
+    "pub_date": "2020-12-10T13:38:43+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78111",
+    "title": "Ubuntu: Canonical baut WSL-Unterstützung mit neuer Windows Community Preview aus",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/08/Ubuntu-Neu.png",
+    "summary": "In diesem Jahr hat Microsoft mit dem großen Update auf Version 2004 von Windows 10 auch die zweite Generation des Windows Subsystem for Linux an seine Nutzer ausgeliefert. Während auch zahlreiche andere Distributionen wie Debian, openSUSE Leap und Kali Linux für WSL 2 verfügbar sind, sind Ubuntu und das dahinter stehende Unternehmen Canonical der älteste [&#8230;]",
+    "pub_date": "2020-12-13T18:19:52+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78106",
+    "title": "Die Woche im Rückspiegel 50/20: Goodbye 2020 mit Windows on ARM und vielen Xbox-News",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/wochenrueckblick_50_titelbild.jpg",
+    "summary": "Willkommen zum letzten wöchentlichen Blick in den Rückspiegel im Jahr 2020. Selbstverständlich läuten wir den Jahreswechsel nur in diesem Format ein, in den verbleibenden rund drei Wochen wird es sicher noch genug zu lesen geben. Außerdem haben wir noch ein wenig Arbeit vor uns: Am kommenden Wochenende stellen wir unsere neue Community an den Start [&#8230;]",
+    "pub_date": "2020-12-13T12:52:21+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77956",
+    "title": "Android Rundschau KW 50/20 mit Skype, Microsoft Authenticator und Forza Street",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/12/Android-Rundschau-Weihnachten.jpg",
+    "summary": "In dieser Woche haben wir wieder eine kleinere Rundschau am Start, für jede Kerze auf dem Adventskranz gibt es ein Update. Es ist gut möglich, dass in Anbetracht der bevorstehenden Weihnachtsruhe die Rundschauen in den kommenden Wochen öfter mal mangels Masse ausfallen werden. Also nicht wundern. Das hier sind die Updates von dieser Woche: Microsoft [&#8230;]",
+    "pub_date": "2020-12-13T11:35:48+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78096",
+    "title": "iOS Rundschau KW 50/20 mit Pix Kamera und Teams",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/12/iOS-Rundschau-Weihnachten.jpg",
+    "summary": "Das Jahr neigt sich dem Ende zu und somit wünsche ich euch zunächst einmal einen schönen dritten Advent. Gerade einmal zwei weitere Rundschauen werdet ihr dieses Jahr noch von uns bekommen und dennoch ist die Updaterei bei Microsoft noch lange nicht in den Weihnachtsferien. Sogar die schon seit über 2 Jahren nicht mehr aktualisierte Pix [&#8230;]",
+    "pub_date": "2020-12-13T09:55:41+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77700",
+    "title": "Firmware: Microsoft verteilt Updates für diverse Generationen des Surface Laptop und Surface Pro",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2018/10/surface_pro_6.jpg",
+    "summary": "Kurz vor dem Wochenende hat Microsoft für vier seiner Surface-Geräte nochmal einen Schwung frischer Firmware-Updates verteilt. Das Surface Laptop 1 sowie das Surface Pro 5 und 6 bekommen insgesamt vier neue Aktualisierungen, womit unter anderem drei verschiedene Treiber von Realtek auf den neuesten Stand gebracht werden. Außerdem verteilt Microsoft ein Systemupdate, um die Integration zwischen [&#8230;]",
+    "pub_date": "2020-12-04T19:58:14+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77693",
+    "title": "Android Apps unter Windows 10 - die andere Sichtweise",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/06/windows_android.jpg",
+    "summary": "Vergangene Woche kam die Meldung auf, dass Microsoft unter dem Codenamen &#8222;Project Latte&#8220; daran arbeitet, Android-Apps auf Windows 10 zu bringen. Technisch soll das auf dem Windows Subsystem for Linux basieren, welches seinerzeit aus dem &#8222;Project Astoria&#8220; hervor ging, mit dem Microsoft damals Android-Apps auf Windows 10 Mobile bringen wollte. Als ich die Nachricht vernahm, [&#8230;]",
+    "pub_date": "2020-12-04T15:59:04+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77690",
+    "title": "Für .NET Core und .NET 5: Microsoft startet Aktualisierungen über Microsoft Update",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Windows.jpg",
+    "summary": "Nutzer von Windows 10 kennen bereits seit einiger Zeit das Verfahren, dass die kumulativen Updates für das klassische .NET Framework in den Versionen 3.5 und 4.8 regelmäßig über Windows Update ausgeliefert werden. Während das klassische .NET Framework ein fester Teil des Betriebssystems ist und damit ganz regulär über Windows Update mit Aktualisierungen versorgt wird, gibt [&#8230;]",
+    "pub_date": "2020-12-04T15:08:33+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77672",
+    "title": "Microsoft Teams: Menü wird umgebaut, Gast-Zugang standardmäßig aktiv",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Microsoft-Teams-Neu.jpg",
+    "summary": "Im Zuge der Einführung der Multi-Account-Unterstützung wird das Profilmenü von Microsoft Teams in Kürze umgestaltet. Außerdem ist der Gastzugang in Zukunft standardmäßig aktiv. Bislang musste der Gastzugang durch Administratoren explizit freigeschaltet werden, um Mitarbeitern die Möglichkeit zu geben, Dienstleister, Berater, Lieferanten oder andere externe Personen in ein Team einzuladen. Zum 8. Februar 2021 ändert sich [&#8230;]",
+    "pub_date": "2020-12-04T10:25:12+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77637",
+    "title": "Windows 10 Insider Build 20270 im Developer Kanal verfügbar",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/07/windows_insider_trex_neu-660x330.jpg",
+    "summary": "Nach knapp zweiwöchiger Pause gibt es für die Windows Insider im Developer Kanal wieder eine neue Testversion: Build 20270 steht ab sofort zum Download und zur Installation bereit, bringt aber wie die Vorgänger kaum neue Funktionen. Neu dabei ist die geteilte Ansicht für die Touch-Tastatur im Portrait-Modus, die über das neue &#8222;Windows Feature Experience Pack&#8220; [&#8230;]",
+    "pub_date": "2020-12-03T18:51:26+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77621",
+    "title": "Verwaltung von Microsoft 365: Vereinfachte Oberfläche für kleine Unternehmen",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2018/05/microsoft_365.jpg",
+    "summary": "Microsoft 365 wird an Unternehmen aller Größen vermarktet, egal ob 3 oder 30.000 Mitarbeiter. Dementsprechend unterschiedlich sind auch die Anforderungen und der genutzte Leistungsumfang. Besonders in kleinen Unternehmen wird oft auf ein recht einfaches Setup gesetzt: Man benutzt Exchange und die Office-Applikationen, dazu vielleicht noch Teams und OneDrive, und das war es dann auch schon. [&#8230;]",
+    "pub_date": "2020-12-03T10:00:39+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77617",
+    "title": "Fifa 21: Für Xbox Series X und PS 5 optimierte Version legt einen Frühstart hin",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/11/fifa21_nextgen.jpg",
+    "summary": "Das Update von Fifa 21 auf die neue Konsolengeneration startet einen Tag früher als geplant. Ab dem 4. Dezember sollte das Update eigentlich für alle Spieler bereit stehen, die eine Xbox Series X/S oder eine Playstation 5 besitzen. Nun ist es einen Tag eher soweit, das Update kann bereits geladen werden. Ich habe die Meldung [&#8230;]",
+    "pub_date": "2020-12-03T09:12:56+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77613",
+    "title": "OneDrive: Auch Business-Nutzer können jetzt geteilte Ordner ins eigene Verzeichnis integrieren",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Microsoft-OneDrive.jpg",
+    "summary": "Die Nutzer von OneDrive for Business kommen in den Genuss einer neuen Funktion, die es in der Endkunden-Version schon länger gibt: Ordner, die von anderen OneDrive-Nutzern freigegeben wurden, können in den eigenen Verzeichnisbaum integriert und auch lokal synchronisiert werden. Gefühlt macht es bei der Nutzung also keinen Unterschied mehr, ob es sich um eigene Inhalte [&#8230;]",
+    "pub_date": "2020-12-03T07:10:29+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77608",
+    "title": "Sea of Thieves: Rare kündigt größere Veränderungen für 2021 an",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2018/01/Sea-of-Thieves-Closed-Beta.jpg",
+    "summary": "Sea of Thieves gehört wie Minecraft und Forza Horizon IV zu den Dauerbrennern von Microsoft, die von den Entwicklerstudios regelmäßig mit neuen Inhalten versorgt werden. Während am 9. Dezember das nächste monatliche Update für das Spiel erscheinen wird, kündigt Rare für das kommende Jahr einige Veränderungen an. Eine der wesentlichen Neuerungen ist dabei auch, dass [&#8230;]",
+    "pub_date": "2020-12-03T06:31:28+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77604",
+    "title": "Smash.GG: Microsoft übernimmt Plattform für Esport-Events",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Xbox.jpg",
+    "summary": "Nach der Übernahme von ZeniMax Media und seiner Tochter Bethesda, die vor wenigen Monaten für große Aufmerksamkeit sorgte, hat Microsoft seine Geldkoffer wieder geöffnet und mit Smash.GG das nächste Unternehmen für seine Xbox-Abteilung übernommen. Diesmal fällt die Nachricht aber deutlich weniger spektakulär aus, denn bei dem Dienst handelt es sich um eine Plattform, über die [&#8230;]",
+    "pub_date": "2020-12-02T20:04:40+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77597",
+    "title": "Microsoft Teams und der gute alte Telefonanruf: Neue Funktionen im Anflug",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Microsoft-Teams-Neu.jpg",
+    "summary": "Vor einiger Zeit habe ich irgendwo einen lustigen Spruch gelesen, der Urheber ist mir leider nicht bekannt. Er ging in etwa so: &#8222;Diese neuen Chatprogramme sind eine großartige Sache. Man kann jetzt eine Stunde lang über ein Thema hin und her schreiben, das früher mit einem zweiminütigen Anruf erledigt gewesen wäre.&#8220; Ich fühlte mich amüsiert [&#8230;]",
+    "pub_date": "2020-12-02T11:41:56+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77593",
+    "title": "Schöne Bescherung: Jede Menge neue Spiele für den Xbox Game Pass im Dezember",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/xbox_game_pass_dezember.jpg",
+    "summary": "Der Xbox Game Pass wird fast zum Adventskalender: Insgesamt 17 neue Spiele hat Microsoft angekündigt, die in den kommenden Tagen hinzugefügt werden. So kann man bis Weihnachten beinahe jeden Tag ein neues Game ausprobieren. Um den Rahmen nicht zu sprengen, liste ich an dieser Stelle alle Neuzugänge chronologisch auf. Falls die Titel nicht für sich [&#8230;]",
+    "pub_date": "2020-12-02T08:42:29+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77590",
+    "title": "Microsoft verbessert Datenschutz bei der Produktivitätsbewertung in Office 365/Microsoft 365",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/11/Microsoft-Office-Neu.jpg",
+    "summary": "In den letzten Tagen hat sich Kritik an einer Funktion in Office 365 bzw. Microsoft 365 gehäuft, die sich &#8222;Productivity Score&#8220; nennt, in der deutschen Version heißt sie &#8222;Produktivitätsbewertung&#8220;. Microsoft hat darauf nun reagiert und Verbesserungen beim Datenschutz angekündigt. Bevor wir dazu kommen, muss ich ein wenig ausholen, denn die Geschichte ist durchaus ein bisschen [&#8230;]",
+    "pub_date": "2020-12-02T07:19:55+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77795",
+    "title": "Samsung 4k QLED TV GQ55Q90T: Das Fazit nach sechs Wochen",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/11/samsung_q90t.jpg",
+    "summary": "Meine Vorfreude auf die Xbox Series X erhielt einen herben Dämpfer, als mir durch einen sehr guten Artikel meines Kollegen Daniel Heithorn klar wurde, dass mein aktueller Fernseher gar nicht in der Lage ist, die grafische Mehrleistung der neuen Konsole wirklich sichtbar zu machen. Samsung hat mir leihweise den Q90T in der 55-Zoll-Variante überlassen, den [&#8230;]",
+    "pub_date": "2020-12-07T17:36:12+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77773",
+    "title": "Braucht Microsoft einen eigenen ARM-Prozessor als Antwort auf Apples M1?",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/10/surface_pro_x_titelbild.jpg",
+    "summary": "Mit seinem ersten ARM-Prozessor M1 hat Apple erwartungsgemäß für viel Aufsehen gesorgt &#8211; und das nicht nur bei seinen eigenen Produkten. Es dauerte nicht lange, bis jemand Windows on ARM auf dem M1 ausprobierte und sich herausstellte, dass es auf dem Apple-Chip schneller läuft als auf dem Surface Pro X. Windows rennt auf Apple-Hardware schneller [&#8230;]",
+    "pub_date": "2020-12-07T09:59:37+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77764",
+    "title": "Microsoft Outlook: Neue Optionen gegen vollgestopfte Terminkalender",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Microsoft-Outlook-Neu.jpg",
+    "summary": "Wessen Arbeitstag häufig aus Meetings besteht, der weiß, dass vor allen Dingen die Termine, die direkt aneinandergrenzen, für Stress und Hektik sorgen können. Im Jahr 2020 ist das ein klein wenig entspannter, weil man ja meist dennoch den ganzen Tag auf demselben Stuhl sitzen bleibt, dennoch braucht man zwischendurch Unterbrechungen, und sei es nur, um [&#8230;]",
+    "pub_date": "2020-12-07T07:48:03+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77756",
+    "title": "OneCast Episode 91 am Montagabend um 20:30 Uhr: Aktuelles und Jahresrückblick",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2018/10/onecast_artikelbild_neu.jpg",
+    "summary": "Wir waren in diesem Jahr gut unterwegs mit dem OneCast, ehe es dann im September mit der Regelmäßigkeit wieder jäh zu Ende ging. Warum das so war, klären wir am Montagabend in der letzten Sendung des Jahres: Um 20:30 Uhr startet die 91. Ausgabe des OneCast, wie immer live und in Farbe. Wie das um [&#8230;]",
+    "pub_date": "2020-12-06T17:09:09+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77729",
+    "title": "Microsoft Store Rundschau KW 49/20 mit Concepts, Meine Mediatheken und Xbox",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/09/apprundschau.jpg",
+    "summary": "Diese Woche brachte neben zahlreichen Updates mit Fehlerbehebungen auch ein paar größere Highlights. Die Designapp Concepts erhielt eine neue Funktion zum gezielten Exportieren von ausgewählten Teilen eines Dokuments. Die TV-App Meine Mediatheken wurde um FUNK, das Videonetzwerk für Jugendliche und junge Erwachsene von ARD und ZDF, ergänzt. Gamer dürfen sich diese Woche über neue Funktionen [&#8230;]",
+    "pub_date": "2020-12-06T14:32:35+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77753",
+    "title": "Android Rundschau KW 49/20 mit Beta-Updates für Outlook, Office und Microsoft Launcher",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/12/Android-Rundschau-Weihnachten.jpg",
+    "summary": "In dieser Woche gibt es fast nur Beta-Updates bei den Microsoft Apps für Android. Die Vorschauversionen von Outlook, Offce und Microsoft Launcher wurden aktualisiert. Lediglich das Update für die Xbox Family Settings ist bereits für alle Nutzer verfügbar. Outlook (Beta) Die Rubrik &#8222;Entdecken&#8220; in der Suche enthält jetzt Beiträge aus SharePoint sowie kürzlich aufgezeichnete Meetings. [&#8230;]",
+    "pub_date": "2020-12-06T13:59:03+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77730",
+    "title": "iOS Rundschau KW 49/20 mit Skype for Business, Power BI und spannende Features für Office-Apps",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/12/iOS-Rundschau-Weihnachten.jpg",
+    "summary": "Die vergangene Woche brachte keine Bahnbrechenden Neuerungen für die Microsoft Apps unter iOS. Neben Skype for Business und Power BI gab es noch sieben Apps, die in die Kategorie &#8222;Wartungsupdates&#8220; fallen. Dafür gibt es aber umso mehr neue Features bei den Office Apps zu vermelden. Aktuell befinden sich die Funktionen allesamt noch in den Beta-Versionen, [&#8230;]",
+    "pub_date": "2020-12-06T10:23:07+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78216",
+    "title": "MSN Wetter: Microsoft kündigt neues Design und Funktionen für alle Plattformen an",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/08/microsoft_bing_neues_logo.jpg",
+    "summary": "Nachdem Microsoft sein eigenes Nachrichtenangebot in der jüngeren Vergangenheit eher gespalten und Microsoft News mit seinen generalüberholten Apps für iOS und Android eine gewisse Priorität eingeräumt hat, tut sich auch beim übrigen MSN in letzter Zeit wieder mehr. Das Team hinter Microsoft Bing hatte zuletzt mit den Kollegen von Microsoft Research gemeinsam den neuen MSN [&#8230;]",
+    "pub_date": "2020-12-15T17:43:08+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78214",
+    "title": "Integration von EA Play in den Xbox Game Pass für PC auf unbestimmte Zeit verschoben",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/09/game_pass_ultimate_ea_play.jpg",
+    "summary": "Ab dem heutigen 15. Dezember hätten Abonnenten des Xbox Game Pass für PC bzw. des Game Pass Ultimate Zugriff auf die Spiele erhalten sollen, die in EA Play enthalten sind. Auf der Xbox wurde diese Integration bereits am 10. November vollzogen, insofern war nicht mit Problemen zu rechnen. Solche sind aber nun dennoch aufgetreten, weshalb [&#8230;]",
+    "pub_date": "2020-12-15T17:07:00+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78209",
+    "title": "Microsoft bringt das Surface Duo Anfang 2021 nach Deutschland",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/10/surface_duo_foto.jpg",
+    "summary": "Das Surface Duo, Microsofts Android Smartphone mit zwei Bildschirmen, ist bislang nur in den USA erhältlich. Das ändert sich in absehbarer Zeit. Ab Anfang 2021 wird das Surface Duo in Deutschland erhältlich sein, außerdem noch in Frankreich, Großbritannien sowie in Kanada. Einen exakten Termin oder einen Preis teilt man vorerst allerdings noch nicht mit. In [&#8230;]",
+    "pub_date": "2020-12-15T16:35:14+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77490",
+    "title": "Mozilla veröffentlicht Firefox 84.0 für Windows, Mac und Linux",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/07/firefox_pgb.jpg",
+    "summary": "Mozilla hat vor wenigen Minuten mit Firefox 84.0 das finale Release in 2020 für alle Nutzer freigegeben. Unter Windows gibt es diesmal wenig zu berichten, denn die Entwickler weiten hier lediglich die Verfügbarkeit von WebRender weiter aus und stellen es nun auch Nutzern mit Intel-CPUs der 5. und 6. Generation zur Verfügung. Außerdem gibt es [&#8230;]",
+    "pub_date": "2020-12-15T14:09:35+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78203",
+    "title": "Project Reunion: Microsoft veröffentlicht erste Public Preview für alle Entwickler",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Windows.jpg",
+    "summary": "Kurzer Einwurf für die Entwickler unter uns, die sich auch schon intensiver mit Project Reunion beschäftigen: Microsoft hat am gestrigen Abend mit Version 0.1 die erste Public Preview veröffentlicht und bittet um entsprechendes Feedback aus der Community. Die neue Version steht unter anderem über den NuGet Package Manager zur Verfügung und soll dabei helfen, die [&#8230;]",
+    "pub_date": "2020-12-15T12:48:10+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78194",
+    "title": "Download: DrWindows Update Packs Dezember 2020 für Windows 7, 8.1 und Windows 10",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/08/DrWindows-Update-Packs-Neu-2.png",
+    "summary": "Die November 2020-Ausgaben unserer Update Packs für Windows 7, 8.1 und Windows 10 stehen ab sofort für euch zum Download bereit. Für Windows 7 und Windows 8.1 gibt es, wie ihr es gewohnt seid, sowohl eine Vollversion als auch ein inkrementelles Paket, welches nur die Änderungen gegenüber dem letzten Monat beinhaltet. Bei Windows 10 ist [&#8230;]",
+    "pub_date": "2020-12-15T10:26:58+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78187",
+    "title": "Microsoft Edge: Synchronisation von geöffneten Tabs und Verlauf erreicht Android",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/11/microsoft_edge_logo_neu.jpg",
+    "summary": "Im Januar wird die Version 88 von Microsoft Edge für Windows und Mac erscheinen. Exakt ein Jahr nach seiner Veröffentlichung werden die Synchronisations-Features im Edge-Browser dann endlich komplett sein, denn auch der Verlauf und die geöffneten Tabs werden dann über alle Geräte hinweg synchronisiert. Es hat lange gedauert, aber nun ist der Haken ja so [&#8230;]",
+    "pub_date": "2020-12-15T09:33:25+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78164",
+    "title": "Windows 10 Insider Build 20279: Ihr dürft alles testen, aber nicht alles wissen",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/07/windows_insider_trex_neu-660x330.jpg",
+    "summary": "Am Montagabend hat Microsoft die Windows 10 Insider Build 20279 im Developer Kanal veröffentlicht. Gegenüber der Build 20277 vom vergangenen Donnerstag enthält sie offiziell weder Neuerungen noch Fehlerbehebungen. Laut Blogpost wollte Microsoft testen, wie schnell sie zwei Builds hintereinander veröffentlichen können. Mein erster Gedanke dazu war: Jetzt ist man als Insider nicht mal mehr eine [&#8230;]",
+    "pub_date": "2020-12-15T07:19:12+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78159",
+    "title": "Surface Book 3: Firmware Update aktualisiert zahlreiche Komponenten",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/05/surface_book_3_titelbild.jpg",
+    "summary": "In der Vorweihnachtszeit lässt Microsoft seinen Hardware-Produkten nochmals etwas Pflege angedeihen. Auf die Firmware-Updates für diverse Modelle von Surface Pro und Surface Laptop sowie das erste Update für das Surface Laptop Go folgt nun eine Aktualisierung für das Surface Book 3. Sowohl die UEFI-Firmware selbst als auch die Tastaturtreiber sowie diverse Treiber von Intel fließen [&#8230;]",
+    "pub_date": "2020-12-14T14:56:49+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78086",
+    "title": "Gadgetcheck: PITAKA MagEZ Case und MagEZ Card Sleeve - Neue Geräte, neues Zubehör",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/BeitragsbildPITAKA.jpg",
+    "summary": "Heute vor ziemlich genau einem Jahr habe ich euch ein paar Handy Hüllen von PITAKA vorgestellt. Da jedes Jahr neue Geräte auf den Markt kommen, müssen dementsprechend auch jedes Jahr die Hüllen aktualisiert werden. Freundlicherweise hat PITAKA mir eine der neuen Hüllen für mein iPhone 12 und ein MagEZ Card Sleeve, welches dem Apple Leather [&#8230;]",
+    "pub_date": "2020-12-14T12:36:23+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77875",
+    "title": "Patchday Dezember 2020: Frische Updates für Windows 10, letztmalig für Version 1903",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/08/Microsoft-Patchday-Neu.png",
+    "summary": "Der finale Patchday des Jahres 2020 brachte wenig überraschend neue kumulative Updates für alle unterstützten Versionen von Windows 10. Für die Version 1903, das April 2019 Update, markiert dies gleichzeitig das endgültige Aus, für diese Version wurden letztmalig Sicherheitsupdates zur Verfügung gestellt. Wer noch mit dieser Version unterwegs ist, sollte daher umgehend mindestens auf die [&#8230;]",
+    "pub_date": "2020-12-09T06:10:45+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77871",
+    "title": "Minecraft with RTX: Mojang stellt Raytracing nun allen unter Windows 10 zur Verfügung",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/08/minecraft.jpg",
+    "summary": "Bereits im August 2019 wurde bekannt, dass die Mojang Studios gemeinsam mit Nvidia an einer Möglichkeit arbeiten, allen Spielern der Minecraft: Bedrock Edition unter Windows 10 Raytracing und DLSS 2.0 zur Verfügung zu stellen. Nachdem die öffentliche Beta dazu am 16. April gestartet wurde, melden Microsoft und Nvidia nun Vollzug und stellen die neuen Features [&#8230;]",
+    "pub_date": "2020-12-08T16:29:51+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77852",
+    "title": "Samsung veröffentlicht App für Screenshots und Bildschirmvideos für die hauseigenen Geräte",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/samsung_screen_rekorder.jpg",
+    "summary": "Wer ein Laptop von Samsung besitzt, kann sich ab sofort eine neue App aus dem Microsoft Store laden: Den Samsung Screen Recorder. Der Name ist Programm: Es handelt sich um eine App, mit der man Screenshots und Videos vom eigenen Desktop erstellen kann, entweder im Vollbild oder nur von einem Ausschnitt des Bildes. Die Aufnahmen [&#8230;]",
+    "pub_date": "2020-12-08T13:47:00+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77816",
+    "title": "Vorschau auf das Dezember-Update für Microsoft Office: Cloud-Signaturen unterm Weihnachtsbaum",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/11/Microsoft-Office-Neu.jpg",
+    "summary": "Mit dem Dezember Update wird die Microsoft Office Suite nochmals eine Reihe von neuen Funktionen erhalten. Eine davon passt in die Jahreszeit, sie hätte aber auch im Sommer ein Gefühl wie Weihnachten ausgelöst. Ich rede von den Cloud-Signaturen: Ab der Version 2012 wird Outlook endlich in der Lage sein, gespeicherte Signaturen über alle Windows-Geräte hinweg [&#8230;]",
+    "pub_date": "2020-12-08T09:05:10+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77959",
+    "title": "Microsoft Teams: Konferenzen im Schnee, Breakout Rooms und weihnachtliche Hintergründe",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/microsoft_teams_together_winter.jpg",
+    "summary": "Auf der Zielgeraden des Jahres 2020 bringt Microsoft nochmal eine wichtige neue Funktion für Microsoft Teams sowie ein paar Goodies, die in die Jahreszeit passen. Im &#8222;Together Mode&#8220;, bei dem sich mehrere Meeting-Teilnehmer virtuell an einem Ort versammeln können, steht jetzt eine winterliche Umgebung zur Auswahl (siehe Titelbild). Vergesst nicht, Glühwein statt Kaffee mitzubringen, das [&#8230;]",
+    "pub_date": "2020-12-10T11:58:13+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77950",
+    "title": "Google Workspaces: Unterstützung für den Internet Explorer 11 endet am 15. März 2021",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/09/google_logo.png",
+    "summary": "Kurz notiert: Falls einer von euch beruflich mit Google Workspaces arbeitet und im Unternehmen immer noch mit dem Internet Explorer 11 unterwegs ist, muss er sich, wie das bei Microsoft im kommenden Jahr auch nach und nach der Fall ist, sehr bald einen neuen Browser suchen. Als Reaktion auf die Ankündigungen aus Redmond wird Google [&#8230;]",
+    "pub_date": "2020-12-10T10:52:21+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77945",
+    "title": "Microsoft Edge Beta 88 bringt Synchronisation von Verlauf und Tabs, PDF-Neuerungen und viel mehr",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/11/microsoft_edge_beta.jpg",
+    "summary": "Im Januar wird Microsoft Edge 88 erscheinen. Die Arbeiten an der neuen Version sind weitgehend fertiggestellt, ab jetzt werden nur noch Fehler beseitigt. Die Version 88 wird ein &#8222;dickes Ding&#8220; mit jeder Menge neuer Funktionen. Nachfolgend habe ich die Neuerungen beschrieben, wer sie direkt ausprobieren möchte, kann sich die Beta-Version von der Microsoft Edge Insider [&#8230;]",
+    "pub_date": "2020-12-10T07:39:14+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77938",
+    "title": "Facebook: Neue Klage in den USA soll Trennung von Instagram und WhatsApp durchsetzen",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2017/07/Facebook-Neu-660x330.png",
+    "summary": "Nachdem Google bereits zahlreichen Wettbewerbsklagen in den USA ausgesetzt ist und hier unter anderem über den möglichen Verkauf von Google Chrome spekuliert wird, sieht sich nun auch Facebook einem großen Rechtsstreit gegenüber. Neben der Bundesbehörde für Verbraucherschutz (Federal Trade Commission, FTC) klagen auch 48 der 50 US-Bundesstaaten gegen den Internetriesen aus Palo Alto in Kalifornien. [&#8230;]",
+    "pub_date": "2020-12-09T20:30:58+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77932",
+    "title": "GitHub Universe: Microsoft kündigt zahlreiche Neuerungen für die Plattform an",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2018/06/github.jpg",
+    "summary": "Die Corona-Pandemie hält die Welt weiterhin in Atem und so muss auch die GitHub Universe 2020 in diesem Dezember wie die Microsoft BUILD oder die .NET Conf in den digitalen Raum ausweichen. Trotzdem konnten Microsoft und seine Tochter wieder mit einigen Ankündigungen aufwarten, die das Leben für die Entwickler noch einfacher machen sollen. Eine der [&#8230;]",
+    "pub_date": "2020-12-09T17:12:29+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77929",
+    "title": "Xbox Game Streaming: Ab Frühjahr 2021 auf PC und iOS",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/02/Project-xCloud.jpg",
+    "summary": "Microsoft weitet sein Game Streaming aus: Ab dem Frühjahr 2021 können Abonnenten des Xbox Game Pass Ultimate nicht nur auf Android- sondern auch auf iOS-Geräte sowie auf den PC streamen. Wer jetzt denkt, Microsoft habe sich endlich mit Apple geeinigt, der täuscht sich allerdings. Wie mehrfach vermutet, wird das Game Streaming auf iPhone und iPad [&#8230;]",
+    "pub_date": "2020-12-09T15:04:43+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77919",
+    "title": "Microsoft Editor kann jetzt in mehreren Sprachen gleichzeitig prüfen",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/04/microsoft_editor.jpg",
+    "summary": "Im Frühjahr wurde der &#8222;Microsoft Editor&#8220; vorgestellt. Es handelt sich hierbei nicht um ein eigenständiges Produkt, sondern um einen Dienst, der an verschiedenen Stellen zur Verfügung steht. Der Microsoft Editor überprüft Rechtschreibung und Grammatik, außerdem macht er Vorschläge für bessere Formulierungen, empfiehlt das Entfernen überflüssiger Wörter usw. Es gibt ihn in Word, in Outlook.com und [&#8230;]",
+    "pub_date": "2020-12-09T13:25:07+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77829",
+    "title": "Angetestet: PowerA XP5-X Controller für mobiles Gaming",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/powera_xp5_x_controller_review.jpg",
+    "summary": "In der jüngeren Vergangenheit haben wir regelmäßig über das „Mobile Gaming“ geschrieben. Dabei ging es selbstredend vornehmlich um Project xCloud, das nun Xbox Streaming heißt, sowie die Möglichkeiten, dieses über Zubehör wie Controller Clips oder integrierte Lösungen wie den Razer Kishi zu nutzen. Von dem Xbox Event X019 hatte ich von der Firma PowerA einen Gaming [&#8230;]",
+    "pub_date": "2020-12-09T09:04:32+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77391",
+    "title": "Bericht: Microsoft arbeitet mit Project Latte an neuer Android Runtime für Windows 10",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/06/windows_android.jpg",
+    "summary": "Erinnert ihr euch noch dunkel an Project Astoria? Diese Technologie gehörte neben Project Westminster (Webanwendungen), Project Islandwood (iOS) und dem immer noch relevanten Project Centennial (Win32-Apps) zu den vier Desktop-Bridges und sollte die einfache Portierung von Android-Apps zu Windows ermöglichen, um so den Windows Store und Windows 10 Mobile zu stärken. Was daraus wurde, ist [&#8230;]",
+    "pub_date": "2020-11-28T11:52:35+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77886",
+    "title": "Microsoft Edge: Developer Kanal springt mit diversen Neuerungen auf Version 89",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/11/microsoft_edge_dev.jpg",
+    "summary": "Nachdem Microsoft Edge 87 offiziell verfügbar ist, beginnt das Vorrücken auf die kommenden Versionen in den diversen Vorschaukanälen. Normalerweise geht das ein bisschen schneller, es bleibt allerdings immer noch genügend Vorlauf: Der Developer Kanal ist jetzt auf die Version 89 gesprungen, deren finale Freigabe nach derzeitiger Planung für Anfang März 2021 vorgesehen ist. Dazwischen kommt [&#8230;]",
+    "pub_date": "2020-12-09T08:23:18+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77881",
+    "title": "Halo Infinite erscheint im Spätjahr 2021",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/halo_infinite.jpg",
+    "summary": "Halo Infinite hätte eigentlich einer der &#8211; oder besser gesagt DER Top-Titel zum Start der Xbox Series X werden sollen. Dass daraus nichts wird, wissen wir schon seit einigen Monaten, als die Entwickler ankündigten, das Spiel ins kommende Jahr zu verschieben. Als Begründung wurde seinerzeit die Corona-Krise angegeben, welche die Entwicklung negativ beeinflusst hat. Seither [&#8230;]",
+    "pub_date": "2020-12-09T07:10:07+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=77878",
+    "title": "Adobe Lightroom startet als native Version für Windows on ARM",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/adobe_lightroom_arm.jpg",
+    "summary": "Schon vor langer Zeit hatte Adobe versprochen, seine Programme nativ auf Windows on ARM zu bringen, damit diese nicht über die langsamere Emulation laufen müssen. Geliefert wurde bislang allerdings nicht, doch das ändert sich nun. Nachdem Mitte November bereits eine Beta von Photoshop für Windows on ARM veröffentlicht wurde, folgt nun die offizielle Freigabe von [&#8230;]",
+    "pub_date": "2020-12-09T06:44:25+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78142",
+    "title": "Cyberpunk 2077: Macher entschuldigen sich und bieten Erstattungen an",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2020/12/Cyber.jpg",
+    "summary": "Immer dann, wenn dem Start eines neuen Produkts ein großer Hype vorausgeht, kann man zuverlässig davon ausgehen, dass es Enttäuschungen geben wird. Da macht Cyberpunk 2077 keine Ausnahme. Kaum ein anderes Spiel hatte so viel öffentliche Aufmerksamkeit, nicht zuletzt aufgrund der mehrmaligen Verschiebungen. Was CD Projekt Red am Ende veröffentlicht hat, war &#8211; maximal diplomatisch [&#8230;]",
+    "pub_date": "2020-12-14T11:07:48+00:00"
+  },
+  {
+    "id": "https://www.drwindows.de/news/?p=78116",
+    "title": "Microsoft eröffnet Galerie zum Mitmachen für eigene Teams-Hintergründe",
+    "article_image_url": "https://www.drwindows.de/news/wp-content/uploads/2019/09/Microsoft-Teams-Neu.jpg",
+    "summary": "Seit es die Möglichkeit gibt, in Microsoft Teams einen eigenen Hintergrund zu verwenden, der den Konferenzteilnehmer statt im heimischen Büro in der Umgebung seiner Wahl sitzen lässt, erfreut sich diese Funktion großer Beliebtheit. Einige Hintergründe bietet Teams standardmäßig an, da man auch eigene Bilder einbinden kann, sind der Kreativität jedoch keine Grenzen gesetzt. Nun hat [&#8230;]",
+    "pub_date": "2020-12-14T07:21:02+00:00"
+  }
+]
