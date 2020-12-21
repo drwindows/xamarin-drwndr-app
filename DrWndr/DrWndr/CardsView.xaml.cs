@@ -7,6 +7,19 @@ namespace DrWndr
 {
     public partial class CardsView : ContentPage
     {
+        #region Private member
+
+        private enum SwipeStatus
+        {
+            GoingToBeLiked,
+            GoingToBeDisliked,
+            Neutral
+        }
+
+        #endregion
+
+        #region Contructor 
+
         public CardsView()
         {
             InitializeComponent();
@@ -15,19 +28,20 @@ namespace DrWndr
             SwipeCardView.Dragging += SwipeCardView_Dragging;
         }
 
+        #endregion
+
+        #region Event handler
+
+        /// <summary>
+        /// Raised on card dragging.
+        /// </summary>
+        /// <param name="sender">Sender.</param>
+        /// <param name="e">Event args.</param>
         private void SwipeCardView_Dragging(object sender, DraggingCardEventArgs e)
         {
             // Perform actions according to drag.
             switch (e.Position)
             {
-                case DraggingCardPosition.Start:
-                    PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.Neutral);
-                    break;
-
-                case DraggingCardPosition.UnderThreshold:
-                    PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.Neutral);
-                    break;
-
                 case DraggingCardPosition.OverThreshold:
                     switch (e.Direction)
                     {
@@ -47,18 +61,15 @@ namespace DrWndr
                     }
                     break;
 
-                case DraggingCardPosition.FinishedUnderThreshold:
-                    PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.Neutral);
-                    break;
-
-                case DraggingCardPosition.FinishedOverThreshold:
-                    PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.Neutral);
-                    break;
-
                 default:
-                    throw new ArgumentOutOfRangeException();
+                    PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.Neutral);
+                    break;
             }
         }
+
+        #endregion
+
+        #region Private helper
 
         /// <summary>
         /// Gets the background gradient stops according for current status.
@@ -92,12 +103,7 @@ namespace DrWndr
                     throw new NotImplementedException("Swipe status not implemented");
             }
         }
-    }
 
-    enum SwipeStatus
-    {
-        GoingToBeLiked,
-        GoingToBeDisliked,
-        Neutral
+        #endregion
     }
 }
