@@ -52,6 +52,12 @@ namespace DrWndr.Models
 
         #endregion
 
+        #region Public helper
+
+        /// <summary>
+        /// Gets all posts from data json file.
+        /// </summary>
+        /// <returns>Found posts.</returns>
         static internal List<Post> GetAll()
         {
             var assembly = typeof(Post).GetTypeInfo().Assembly;
@@ -63,6 +69,8 @@ namespace DrWndr.Models
             reader.Close();
             return foo;
         }
+
+        #endregion
 
         #region Private constants
 
@@ -126,6 +134,5 @@ namespace DrWndr.Models
         }
 
         #endregion
-
     }
 }

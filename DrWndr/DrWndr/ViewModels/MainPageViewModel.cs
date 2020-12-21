@@ -1,15 +1,14 @@
-﻿using System;
+﻿using DrWndr.Models;
+using MLToolkit.Forms.SwipeCardView.Core;
+using System;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
-using DrWndr.Models;
-using MLToolkit.Forms.SwipeCardView.Core;
 using Xamarin.Forms;
 
 namespace DrWndr.ViewModels
 {
     public class MainPageViewModel: BasePageViewModel
     {
-
         #region Public member
 
         public uint Threshold
@@ -49,8 +48,7 @@ namespace DrWndr.ViewModels
 
         public MainPageViewModel()
         {
-            Threshold = 300;
-
+            Threshold = (uint)(App.ScreenWidth / 3);
             SwipedCommand = new Command<SwipedCardEventArgs>(OnSwipedCommand);
             DraggingCommand = new Command<DraggingCardEventArgs>(OnDraggingCommand);
             Posts = new ObservableCollection<Post>(Post.GetAll());
