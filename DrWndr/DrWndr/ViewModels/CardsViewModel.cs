@@ -1,4 +1,5 @@
 ﻿using DrWndr.Models;
+using DrWndr.Utils;
 using MLToolkit.Forms.SwipeCardView.Core;
 using System;
 using System.Collections.ObjectModel;
@@ -7,10 +8,14 @@ using Xamarin.Forms;
 
 namespace DrWndr.ViewModels
 {
-    public class MainPageViewModel: BasePageViewModel
+    public class CardsViewModel: BasePageViewModel
     {
         #region Public member
 
+        /// <summary>
+        /// Determines the screen swipe distance
+        /// threshold.
+        /// </summary>
         public uint Threshold
         {
             get => threshold;
@@ -21,6 +26,22 @@ namespace DrWndr.ViewModels
             }
         }
 
+        /// <summary>
+        /// Gets the count information text.
+        /// </summary>
+        public string CountText
+        {
+            get => countText;
+            set
+            {
+                countText = value;
+                RaisePropertyChanged();
+            }
+        }
+
+        /// <summary>
+        /// Contains all posts to swipe.
+        /// </summary>
         public ObservableCollection<Post> Posts
         {
             get => posts;
@@ -31,8 +52,14 @@ namespace DrWndr.ViewModels
             }
         }
 
+        /// <summary>
+        /// Raised if user swiped.
+        /// </summary>
         public ICommand SwipedCommand { get; }
 
+        /// <summary>
+        /// Raised if user dragged a card.
+        /// </summary>
         public ICommand DraggingCommand { get; }
 
         #endregion
@@ -41,17 +68,22 @@ namespace DrWndr.ViewModels
 
         private ObservableCollection<Post> posts = new ObservableCollection<Post>();
         private uint threshold;
+        private string countText;
 
         #endregion
 
         #region Constructor
 
-        public MainPageViewModel()
+        /// <summary>
+        /// Constructor.
+        /// </summary>
+        public CardsViewModel()
         {
             Threshold = (uint)(App.ScreenWidth / 3);
             SwipedCommand = new Command<SwipedCardEventArgs>(OnSwipedCommand);
             DraggingCommand = new Command<DraggingCardEventArgs>(OnDraggingCommand);
-            Posts = new ObservableCollection<Post>(Post.GetAll());
+            Posts = new ObservableCollection<Post>(Post.GetAll().GetRange(0,2));
+            CountText = $"Du spielst mit {Post.GetAll().Count} Artikeln";
         }
 
         #endregion
@@ -60,6 +92,9 @@ namespace DrWndr.ViewModels
 
         private void OnSwipedCommand(SwipedCardEventArgs eventArgs)
         {
+            var swipedPost = (Post)eventArgs.Item;
+            var index = Posts.IndexOf(swipedPost);
+            Posts[index].Status = eventArgs.Direction.ToStatus();
         }
 
         private void OnDraggingCommand(DraggingCardEventArgs eventArgs)

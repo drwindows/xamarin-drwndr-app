@@ -1,30 +1,27 @@
 ﻿using System;
+using DrWndr.Models;
+using DrWndr.Utils;
 using DrWndr.ViewModels;
 using MLToolkit.Forms.SwipeCardView.Core;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace DrWndr
 {
     public partial class CardsView : ContentPage
     {
-        #region Private member
-
-        private enum SwipeStatus
-        {
-            GoingToBeLiked,
-            GoingToBeDisliked,
-            Neutral
-        }
-
-        #endregion
-
         #region Contructor 
 
+        /// <summary>
+        /// Constructor
+        /// </summary>
         public CardsView()
         {
+            // Setup view.
             InitializeComponent();
-            BindingContext = new MainPageViewModel();
+            BindingContext = new CardsViewModel();
 
+            // Set event handler.
             SwipeCardView.Dragging += SwipeCardView_Dragging;
         }
 
@@ -46,11 +43,11 @@ namespace DrWndr
                     switch (e.Direction)
                     {
                         case SwipeCardDirection.Left:
-                            PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.GoingToBeDisliked);
+                            PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.Disliked);
                             break;
 
                         case SwipeCardDirection.Right:
-                            PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.GoingToBeLiked);
+                            PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.Liked);
                             break;
 
                         case SwipeCardDirection.Up:
@@ -65,6 +62,17 @@ namespace DrWndr
                     PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.Neutral);
                     break;
             }
+        }
+
+        /// <summary>
+        /// Raised on button tap to visit drwindows.de
+        /// </summary>
+        /// <param name="sender">Sender.</param>
+        /// <param name="e">Event args.</param>
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            var post = (Post)SwipeCardView.TopItem;
+            await Browser.OpenAsync(post.ArticleUrl, BrowserLaunchMode.SystemPreferred);
         }
 
         #endregion
@@ -86,14 +94,14 @@ namespace DrWndr
                         new Xamarin.Forms.PancakeView.GradientStop { Color = Color.FromHex("627294"), Offset = 0.5f },
                         new Xamarin.Forms.PancakeView.GradientStop { Color = Color.FromHex("8992A4"), Offset = 1.0f },
                         };
-                case SwipeStatus.GoingToBeLiked:
+                case SwipeStatus.Liked:
                     return new Xamarin.Forms.PancakeView.GradientStopCollection
                         {
                             new Xamarin.Forms.PancakeView.GradientStop { Color = Color.DarkOliveGreen, Offset = 0 },
                             new Xamarin.Forms.PancakeView.GradientStop { Color = Color.DarkSeaGreen, Offset = 0.5f }
                         };
 
-                case SwipeStatus.GoingToBeDisliked:
+                case SwipeStatus.Disliked:
                     return new Xamarin.Forms.PancakeView.GradientStopCollection
                         {
                         new Xamarin.Forms.PancakeView.GradientStop { Color = Color.DarkRed, Offset = 0 },
@@ -103,6 +111,7 @@ namespace DrWndr
                     throw new NotImplementedException("Swipe status not implemented");
             }
         }
+
 
         #endregion
     }

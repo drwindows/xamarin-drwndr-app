@@ -51,6 +51,11 @@
                     FontSize="16"
                     HorizontalOptions="Center"
                     Text="Heiße Artikel und Doktorspielchen" />
+
+                <Label
+                    FontSize="16"
+                    HorizontalOptions="Center"
+                    Text="{Binding CountText}" />
             </StackLayout>
 
             <!--  Swipe cards  -->
@@ -58,6 +63,7 @@
                 x:Name="SwipeCardView"
                 Grid.Row="1"
                 Padding="30"
+                CardRotation="60"
                 DraggingCommand="{Binding DraggingCommand}"
                 HorizontalOptions="FillAndExpand"
                 ItemsSource="{Binding Posts}"
@@ -89,6 +95,22 @@
                                         Source="{Binding ArticleImageUrl}"
                                         VerticalOptions="FillAndExpand" />
 
+                                    <!--  Badge  -->
+                                    <Frame
+                                        Grid.Row="0"
+                                        Margin="10"
+                                        BackgroundColor="{Binding BadgeBackgroundColor}"
+                                        BorderColor="{Binding BadgeText}"
+                                        CornerRadius="10"
+                                        HasShadow="True"
+                                        VerticalOptions="Start">
+                                        <Label
+                                            FontSize="20"
+                                            HorizontalTextAlignment="Center"
+                                            Text="{Binding BadgeText}"
+                                            TextColor="{Binding BadgeColor}" />
+                                    </Frame>
+
                                     <!--  Seperator  -->
                                     <BoxView
                                         Grid.Row="1"
@@ -109,6 +131,9 @@
                                             <Label Text="Erschienen am:" />
                                             <Label Text="{Binding PupDate, StringFormat='{0:MM.dd.yyyy}'}" />
                                         </StackLayout>
+
+                                        <!--  Button  -->
+                                        <Button Clicked="Button_Clicked" Text="Auf drwindows.de ansehen" />
                                     </StackLayout>
                                 </Grid>
                             </Frame>
@@ -121,7 +146,7 @@
             <StackLayout Grid.Row="2" Padding="10">
                 <Label
                     HorizontalTextAlignment="Center"
-                    Text="Made with Xamarin.Forms and"
+                    Text="Made with Xamarin.Forms and ♥"
                     TextColor="{StaticResource Accent}" />
             </StackLayout>
         </Grid>

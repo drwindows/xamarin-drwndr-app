@@ -13,13 +13,13 @@ namespace DrWndr.Converter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Start converter.");
 
             // List of found items.
             var foundItems = new List<SyndicationItem>();
 
             // Get all files from input folder.
-            var filePaths = Directory.GetFiles(@"/Users/tobiasscholze/Desktop/input", "*.rss");
+            var filePaths = Directory.GetFiles(@"C:\Users\Tobias\Desktop\input", "*.rss");
 
             // Parse each file and add result to found items.
             foreach (var path in filePaths)
@@ -44,7 +44,7 @@ namespace DrWndr.Converter
             var jsonString = JsonConvert.SerializeObject(items);
 
             // Write it to disk.
-            File.WriteAllText("/Users/tobiasscholze/Desktop/result.json", jsonString);
+            File.WriteAllText(@"C:\Users\Tobias\Desktop\input\result.json", jsonString);
         }
     }
 }

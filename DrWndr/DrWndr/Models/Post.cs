@@ -4,7 +4,9 @@ using System.IO;
 using System.Reflection;
 using System.ServiceModel.Syndication;
 using System.Text.RegularExpressions;
+using DrWndr.Utils;
 using Newtonsoft.Json;
+using Xamarin.Forms;
 
 namespace DrWndr.Models
 {
@@ -13,7 +15,7 @@ namespace DrWndr.Models
     /// </summary>
     public class Post
     {
-        #region Members
+        #region JSON member
 
         /// <summary>
         /// Id of the post.
@@ -28,6 +30,13 @@ namespace DrWndr.Models
         /// </summary>
         [JsonProperty("title")]
         public string Title { get; set; }
+
+        /// <summary>
+        /// Article url of the post.
+        /// Renders as `article_url` to JSON.
+        /// </summary>
+        [JsonProperty("article_url")]
+        public string ArticleUrl { get; set; }
 
         /// <summary>
         /// Article image url of the post.
@@ -52,6 +61,87 @@ namespace DrWndr.Models
 
         #endregion
 
+        #region App members
+
+        /// <summary>
+        /// Determines the swipe status.
+        /// Default value: Neutral.
+        /// Ignored from JSON.
+        /// </summary>
+        [JsonIgnore]
+        public SwipeStatus Status { get; set; }
+
+        /// <summary>
+        /// Gets the badge text.
+        /// Ignored from JSON.
+        /// </summary>
+        [JsonIgnore]
+        public string BadgeText
+        {
+            get
+            {
+                switch(Status)
+                {
+                    case SwipeStatus.Liked:
+                        return "Liked";
+
+                    case SwipeStatus.Disliked:
+                        return "Disliked";
+
+                    default:
+                        return string.Empty;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Gets the badge color.
+        /// Ignored from JSON.
+        /// </summary>
+        [JsonIgnore]
+        public Color BadgeColor
+        {
+            get
+            {
+                switch (Status)
+                {
+                    case SwipeStatus.Liked:
+                        return Color.DarkOliveGreen;
+
+                    case SwipeStatus.Disliked:
+                        return Color.DarkRed;
+
+                    default:
+                        return Color.Transparent;
+                }
+            }
+        }
+
+        /// <summary>
+        /// Gets the badge background color.
+        /// Ignored from JSON.
+        /// </summary>
+        [JsonIgnore]
+        public Color BadgeBackgroundColor
+        {
+            get
+            {
+                switch (Status)
+                {
+                    case SwipeStatus.Liked:
+                        return Color.DarkSeaGreen;
+
+                    case SwipeStatus.Disliked:
+                        return Color.IndianRed;
+
+                    default:
+                        return Color.Transparent;
+                }
+            }
+        }
+
+        #endregion
+
         #region Public helper
 
         /// <summary>
@@ -60,14 +150,21 @@ namespace DrWndr.Models
         /// <returns>Found posts.</returns>
         static internal List<Post> GetAll()
         {
+            // Read json data from disk.
             var assembly = typeof(Post).GetTypeInfo().Assembly;
             Stream stream = assembly.GetManifestResourceStream("DrWndr.Data.result.json");
-
             var reader = new StreamReader(stream);
             var json = reader.ReadToEnd();
-            var foo = JsonConvert.DeserializeObject<List<Post>>(json);
+
+            // Parse json into objects.
+            var list = JsonConvert.DeserializeObject<List<Post>>(json);
             reader.Close();
-            return foo;
+
+            // Shuffle list randomly.
+            list.Shuffle();
+
+            // Return found, parsed and radomized list.
+            return list;
         }
 
         #endregion
@@ -85,7 +182,7 @@ namespace DrWndr.Models
 
         public Post()
         {
-
+           // Status = SwipeStatus.Neutral;
         }
 
         /// <summary>
@@ -98,6 +195,7 @@ namespace DrWndr.Models
             Id = item.Id;
             Title = item.Title.Text;
             Summary = GetTextFromHtml(item.Summary.Text);
+            ArticleUrl = item.Links[0].Uri.ToString();
             ArticleImageUrl = GetImageSourceOutOfContent(item.Summary.Text);
             PupDate = item.PublishDate;
         }
