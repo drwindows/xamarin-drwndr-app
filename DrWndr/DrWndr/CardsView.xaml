@@ -88,6 +88,7 @@
                                         <RowDefinition Height="Auto" />
                                     </Grid.RowDefinitions>
 
+                                    <!--  Hero Image  -->
                                     <Image
                                         Grid.Row="0"
                                         Aspect="AspectFill"
@@ -122,15 +123,14 @@
                                         Grid.Row="2"
                                         Padding="10"
                                         BackgroundColor="White">
+                                        <!--  Title  -->
                                         <Label
                                             FontSize="21"
                                             Text="{Binding Title}"
                                             TextColor="{StaticResource Primary}" />
 
-                                        <StackLayout Orientation="Horizontal">
-                                            <Label Text="Erschienen am:" />
-                                            <Label Text="{Binding PupDate, StringFormat='{0:MM.dd.yyyy}'}" />
-                                        </StackLayout>
+                                        <!--  Subtitle  -->
+                                        <Label Text="{Binding Subtitle}" />
 
                                         <!--  Button  -->
                                         <Button Clicked="Button_Clicked" Text="Auf drwindows.de ansehen" />

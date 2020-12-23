@@ -44,7 +44,7 @@ namespace DrWndr.Converter
             var jsonString = JsonConvert.SerializeObject(items);
 
             // Write it to disk.
-            File.WriteAllText(@"C:\Users\Tobias\Desktop\input\result.json", jsonString);
+            File.WriteAllText(@"C:\Users\Tobias\Desktop\input\result2.json", jsonString);
         }
     }
 }

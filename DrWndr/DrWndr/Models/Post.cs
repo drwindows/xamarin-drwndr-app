@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.ServiceModel.Syndication;
 using System.Text.RegularExpressions;
+using System.Xml.Linq;
 using DrWndr.Utils;
 using Newtonsoft.Json;
 using Xamarin.Forms;
@@ -44,6 +46,13 @@ namespace DrWndr.Models
         /// </summary>
         [JsonProperty("article_image_url")]
         public string ArticleImageUrl { get; set; }
+
+        /// <summary>
+        /// Article author.
+        /// Renders as `author` to JSON.
+        /// </summary>
+        [JsonProperty("author")]
+        public string Author { get; set; }
 
         /// <summary>
         /// Plain text summary of the post.
@@ -89,7 +98,7 @@ namespace DrWndr.Models
                         return "Disliked";
 
                     default:
-                        return string.Empty;
+                        return "Hot or Not?";
                 }
             }
         }
@@ -112,8 +121,22 @@ namespace DrWndr.Models
                         return Color.DarkRed;
 
                     default:
-                        return Color.Transparent;
+                        // OnPrimary
+                        return Color.FromHex("FAFAFA");
                 }
+            }
+        }
+
+        /// <summary>
+        /// Gets the computed subtitle of a post.
+        /// Ignored from JSON.
+        /// </summary>
+        [JsonIgnore]
+        public string Subtitle
+        {
+            get
+            {
+                return $"Geschrieben von {Author} am {PupDate:dd.mm.yyyy}";
             }
         }
 
@@ -135,7 +158,8 @@ namespace DrWndr.Models
                         return Color.IndianRed;
 
                     default:
-                        return Color.Transparent;
+                        // Primary.
+                        return Color.FromHex("213868").MultiplyAlpha(0.6);
                 }
             }
         }
@@ -180,9 +204,12 @@ namespace DrWndr.Models
 
         #region Constructor
 
+        /// <summary>
+        /// Empty constructor used by the deserializer.
+        /// </summary>
         public Post()
         {
-           // Status = SwipeStatus.Neutral;
+            Status = SwipeStatus.Neutral;
         }
 
         /// <summary>
@@ -192,12 +219,24 @@ namespace DrWndr.Models
         /// <param name="item">SyndicationItem input.</param>
         public Post(SyndicationItem item)
         {
+            // Read basic attributes.
             Id = item.Id;
             Title = item.Title.Text;
             Summary = GetTextFromHtml(item.Summary.Text);
             ArticleUrl = item.Links[0].Uri.ToString();
             ArticleImageUrl = GetImageSourceOutOfContent(item.Summary.Text);
             PupDate = item.PublishDate;
+
+            // Read custom attributes
+            Author = item.ElementExtensions
+                .ReadElementExtensions<XElement>("creator", "http://purl.org/dc/elements/1.1/")
+                .Select(e => e.Value)
+                .First();
+
+            // Post processing
+            //  1.  If author is "Dr. Windows" which is used for "guest articles"
+            //      Change the author name to "einem Gast".
+            if (Author == "Dr. Windows") Author = "einem Gast";
         }
 
         #endregion
