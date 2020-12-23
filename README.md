@@ -11,6 +11,11 @@ If you are looking for other Xamarin.Forms app of mine, you maybe want to have a
 ## D: Was ist DrWndR?
 Mit dieser App möchte ich euch zeigen wie man in wenig Zeit und nur mit kostenfreien Mitteln Spaß an der Software Entwicklung mit Microsof Xamarin.Forms und GitHub Actions hat. Die App ist absolut nicht gedacht als Lehrbeispiel für Softwarearchitektur als auch nicht für den Einsatz in "realen" Umgebungen. Wir wollen Spaß haben und eventuell hier nicht alles so ernst nehmen wie es zur Zeit auf der Welt Gang und gäbe ist.
 
+## App screenshots
+
+**Swipe states**
+<center><img src="docs/screens.png" height="500" /></center>
+
 ## Releases
 
 > No public releases beside the code is planned.
