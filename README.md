@@ -13,6 +13,9 @@ Mit dieser App möchte ich euch zeigen wie man in wenig Zeit und nur mit kostenf
 
 ## App screenshots
 
+**Animations**
+<center><img src="docs/screenplay.gif" height="500" /></center>
+
 **Swipe states**
 <center><img src="docs/screens.png" height="500" /></center>
 
