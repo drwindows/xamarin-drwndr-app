@@ -8,6 +8,9 @@ using Xamarin.Forms;
 
 namespace DrWndr
 {
+    /// <summary>
+    /// Represents a list of swipeable Dr. Windows news cards.
+    /// </summary>
     public partial class CardsView : ContentPage
     {
         #region Contructor 
@@ -50,10 +53,7 @@ namespace DrWndr
                             PageContent.BackgroundGradientStops = GetGradientForStatus(SwipeStatus.Liked);
                             break;
 
-                        case SwipeCardDirection.Up:
-                            break;
-
-                        case SwipeCardDirection.Down:
+                        default:
                             break;
                     }
                     break;

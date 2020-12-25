@@ -20,7 +20,7 @@ namespace DrWndr.Models
         #region JSON member
 
         /// <summary>
-        /// Id of the post.
+        /// Unique Id of the post.
         /// Renders as `id` to JSON.
         /// </summary>
         [JsonProperty("id")]
@@ -28,7 +28,7 @@ namespace DrWndr.Models
 
         /// <summary>
         /// Title of the post.
-        /// Renders as `tile` to JSON.
+        /// Renders as `title` to JSON.
         /// </summary>
         [JsonProperty("title")]
         public string Title { get; set; }

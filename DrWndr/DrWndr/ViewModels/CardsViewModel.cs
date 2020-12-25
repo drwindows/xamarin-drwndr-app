@@ -82,8 +82,8 @@ namespace DrWndr.ViewModels
             Threshold = (uint)(App.ScreenWidth / 3);
             SwipedCommand = new Command<SwipedCardEventArgs>(OnSwipedCommand);
             DraggingCommand = new Command<DraggingCardEventArgs>(OnDraggingCommand);
-            Posts = new ObservableCollection<Post>(Post.GetAll().GetRange(0,2));
-            CountText = $"Du spielst mit {Post.GetAll().Count} Artikeln";
+            Posts = new ObservableCollection<Post>(Post.GetAll());
+            CountText = $"Du spielst mit {Posts.Count} Artikeln";
         }
 
         #endregion
